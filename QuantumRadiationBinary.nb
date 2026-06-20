@@ -1,0 +1,319 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10130,        310]
+NotebookOptionsPosition[      8042,        264]
+NotebookOutlinePosition[      8419,        280]
+CellTagsIndexPosition[      8376,        277]
+WindowTitle->QuantumRadiationBinary
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"Get", "[", 
+  RowBox[{"FileNameJoin", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"NotebookDirectory", "[", "]"}], ",", 
+     "\"\<QuantumRadiationBinary.wl\>\""}], "}"}], "]"}], "]"}]], "Input",Expr\
+essionUUID->"ba5bf100-48e2-684b-9da1-fbccb3509ab7"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PairPowerCoefficients", "[", "]"}]], "Input",ExpressionUUID->"f56f492f-2bdf-0043-9508-db07561a1ba6"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"Scalar\"\>", "\[Rule]", 
+    FractionBox["128", 
+     RowBox[{"525", " ", "\[Pi]"}]]}], ",", 
+   RowBox[{"\<\"Fermion\"\>", "\[Rule]", 
+    FractionBox["2144", 
+     RowBox[{"1575", " ", "\[Pi]"}]]}], ",", 
+   RowBox[{"\<\"Photon\"\>", "\[Rule]", 
+    FractionBox["4288", 
+     RowBox[{"1575", " ", "\[Pi]"}]]}]}], "\[RightAssociation]"}]], "Output",E\
+xpressionUUID->"4a43f25f-b48e-f745-9878-993f06a05a62"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SpectralCoefficients", "[", "]"}]], "Input",ExpressionUUID->"af3160bc-999a-8246-8162-9ce9c19e998c"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"Scalar\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      FractionBox["1", 
+       RowBox[{"480", " ", "\[Pi]"}]], ",", 
+      FractionBox["1", 
+       RowBox[{"48", " ", "\[Pi]"}]]}], "}"}]}], ",", 
+   RowBox[{"\<\"Fermion\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      FractionBox["1", 
+       RowBox[{"80", " ", "\[Pi]"}]], ",", "0"}], "}"}]}], ",", 
+   RowBox[{"\<\"Photon\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      FractionBox["1", 
+       RowBox[{"40", " ", "\[Pi]"}]], ",", "0"}], "}"}]}]}], 
+  "\[RightAssociation]"}]], "Output",ExpressionUUID->"f2ced860-8236-4948-af56-\
+702a39818d5d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SourceSpinIntegrals", "[", "]"}]], "Input",ExpressionUUID->"d1b6a13e-f4c6-f54e-a877-97f5aa11769f"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"I2\"\>", "\[Rule]", 
+    FractionBox[
+     RowBox[{"2144", " ", "\[Pi]"}], "315"]}], ",", 
+   RowBox[{"\<\"I0\"\>", "\[Rule]", 
+    FractionBox[
+     RowBox[{"16", " ", "\[Pi]"}], "315"]}]}], 
+  "\[RightAssociation]"}]], "Output",ExpressionUUID->"faa3a3a8-51fb-e94e-a446-\
+82eae09c75eb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SingleGravitonCoefficient", "[", "]"}]], "Input",ExpressionUUID->"0bb45b41-9a66-2645-94c6-e96f94aa4045"],
+
+Cell[BoxData[
+ FractionBox["32", "5"]], "Output",ExpressionUUID->"96f96456-efa8-e949-8772-ed4d777890c2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"DoubleGravitonIRRawPolynomial", "[", "x", "]"}]], "Input",Expression\
+UUID->"3d28a0e7-ea39-6546-9f14-d614451351a1"],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["1", "75"], " ", "\[Pi]", " ", 
+  RowBox[{"(", 
+   RowBox[{"2108", "-", 
+    RowBox[{"836", " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "1"}], "+", "x"}], ")"}], "2"]}], "+", 
+    RowBox[{"1124", " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "1"}], "+", "x"}], ")"}], "4"]}], "+", 
+    RowBox[{"148", " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "1"}], "+", "x"}], ")"}], "6"]}], "+", 
+    RowBox[{"16", " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "1"}], "+", "x"}], ")"}], "8"]}]}], ")"}]}]], "Output",Ex\
+pressionUUID->"f3226cfd-5bd2-774a-9e0f-412f5b2b35bd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"DoubleGravitonIRSpectrumCoefficient", "[", "x", "]"}]], "Input",Expr\
+essionUUID->"f651f197-1617-c643-b61f-0caa765073f8"],
+
+Cell[BoxData[
+ RowBox[{"-", 
+  FractionBox[
+   RowBox[{"640", "+", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "2"}], "+", "x"}], ")"}], " ", "x", " ", 
+     RowBox[{"(", 
+      RowBox[{"480", "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "2"}], "+", "x"}], ")"}], " ", "x", " ", 
+        RowBox[{"(", 
+         RowBox[{"416", "+", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "2"}], "+", "x"}], ")"}], " ", "x", " ", 
+           RowBox[{"(", 
+            RowBox[{"53", "+", 
+             RowBox[{"4", " ", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"-", "2"}], "+", "x"}], ")"}], " ", "x"}]}], 
+            ")"}]}]}], ")"}]}]}], ")"}]}]}], 
+   RowBox[{"1200", " ", 
+    SuperscriptBox["\[Pi]", "3"], " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"-", "2"}], "+", "x"}], ")"}], " ", "x"}]]}]], "Output",Expressi\
+onUUID->"0cf1510a-5973-7745-8121-1c12e0fff08a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Association", "[", 
+  RowBox[{
+   RowBox[{"\"\<Finite\>\"", "\[Rule]", 
+    RowBox[{"DoubleGravitonIRFiniteCoefficient", "[", "]"}]}], ",", 
+   RowBox[{"\"\<SoftLog\>\"", "\[Rule]", 
+    RowBox[{"DoubleGravitonIRLogCoefficient", "[", "]"}]}]}], "]"}]], "Input",\
+ExpressionUUID->"8f5ef346-934f-ef40-b221-665d5f812ce1"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"Finite\"\>", "\[Rule]", 
+    RowBox[{"-", 
+     FractionBox["3007", 
+      RowBox[{"7875", " ", 
+       SuperscriptBox["\[Pi]", "3"]}]]}]}], ",", 
+   RowBox[{"\<\"SoftLog\"\>", "\[Rule]", 
+    FractionBox["8", 
+     RowBox[{"15", " ", 
+      SuperscriptBox["\[Pi]", "3"]}]]}]}], "\[RightAssociation]"}]], "Output",\
+ExpressionUUID->"ddb4e047-0155-2c4c-bb27-3a6691143a70"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AllPowerResults", "[", 
+  RowBox[{"mu", ",", "a", ",", "Omega", ",", "omegaMin"}], "]"}]], "Input",Exp\
+ressionUUID->"18eaaaa2-f39b-7846-90f0-60180a30f87f"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"ScalarPair\"\>", "\[Rule]", 
+    FractionBox[
+     RowBox[{"128", " ", 
+      SuperscriptBox["a", "4"], " ", 
+      SuperscriptBox["mu", "2"], " ", 
+      SuperscriptBox["Omega", "8"]}], 
+     RowBox[{"525", " ", "\[Pi]"}]]}], ",", 
+   RowBox[{"\<\"DiracFermionPair\"\>", "\[Rule]", 
+    FractionBox[
+     RowBox[{"2144", " ", 
+      SuperscriptBox["a", "4"], " ", 
+      SuperscriptBox["mu", "2"], " ", 
+      SuperscriptBox["Omega", "8"]}], 
+     RowBox[{"1575", " ", "\[Pi]"}]]}], ",", 
+   RowBox[{"\<\"PhotonPair\"\>", "\[Rule]", 
+    FractionBox[
+     RowBox[{"4288", " ", 
+      SuperscriptBox["a", "4"], " ", 
+      SuperscriptBox["mu", "2"], " ", 
+      SuperscriptBox["Omega", "8"]}], 
+     RowBox[{"1575", " ", "\[Pi]"}]]}], ",", 
+   RowBox[{"\<\"SingleGraviton\"\>", "\[Rule]", 
+    RowBox[{
+     FractionBox["32", "5"], " ", 
+     SuperscriptBox["a", "4"], " ", 
+     SuperscriptBox["mu", "2"], " ", 
+     SuperscriptBox["Omega", "6"]}]}], ",", 
+   RowBox[{"\<\"DoubleGravitonIRPoleGraph\"\>", "\[Rule]", 
+    FractionBox[
+     RowBox[{
+      SuperscriptBox["a", "4"], " ", 
+      SuperscriptBox["mu", "2"], " ", 
+      SuperscriptBox["Omega", "8"], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "3007"}], "+", 
+        RowBox[{"4200", " ", 
+         RowBox[{"Log", "[", 
+          RowBox[{
+           RowBox[{"-", "1"}], "+", 
+           FractionBox[
+            RowBox[{"2", " ", "Omega"}], "omegaMin"]}], "]"}]}]}], ")"}]}], 
+     RowBox[{"7875", " ", 
+      SuperscriptBox["\[Pi]", "3"]}]]}]}], "\[RightAssociation]"}]], "Output",\
+ExpressionUUID->"bdcd797d-3e04-3f48-827b-3a991595fbaa"]
+}, Open  ]]
+},
+WindowTitle->"QuantumRadiationBinary",
+FrontEndVersion->"14.0 for Microsoft Windows (64-bit) (2023\:5e7412\:670812\
+\:65e5)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"00fbf8f6-9be7-d348-b0e6-16a6758d3eb7"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[594, 21, 281, 7, 70, "Input",ExpressionUUID->"ba5bf100-48e2-684b-9da1-fbccb3509ab7"],
+Cell[CellGroupData[{
+Cell[900, 32, 124, 1, 70, "Input",ExpressionUUID->"f56f492f-2bdf-0043-9508-db07561a1ba6"],
+Cell[1027, 35, 480, 12, 70, "Output",ExpressionUUID->"4a43f25f-b48e-f745-9878-993f06a05a62"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1544, 52, 123, 1, 70, "Input",ExpressionUUID->"af3160bc-999a-8246-8162-9ce9c19e998c"],
+Cell[1670, 55, 694, 21, 70, "Output",ExpressionUUID->"f2ced860-8236-4948-af56-702a39818d5d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2401, 81, 122, 1, 70, "Input",ExpressionUUID->"d1b6a13e-f4c6-f54e-a877-97f5aa11769f"],
+Cell[2526, 84, 360, 10, 70, "Output",ExpressionUUID->"faa3a3a8-51fb-e94e-a446-82eae09c75eb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2923, 99, 128, 1, 70, "Input",ExpressionUUID->"0bb45b41-9a66-2645-94c6-e96f94aa4045"],
+Cell[3054, 102, 104, 1, 70, "Output",ExpressionUUID->"96f96456-efa8-e949-8772-ed4d777890c2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3195, 108, 139, 2, 70, "Input",ExpressionUUID->"3d28a0e7-ea39-6546-9f14-d614451351a1"],
+Cell[3337, 112, 755, 25, 70, "Output",ExpressionUUID->"f3226cfd-5bd2-774a-9e0f-412f5b2b35bd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4129, 142, 145, 2, 70, "Input",ExpressionUUID->"f651f197-1617-c643-b61f-0caa765073f8"],
+Cell[4277, 146, 1010, 32, 70, "Output",ExpressionUUID->"0cf1510a-5973-7745-8121-1c12e0fff08a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5324, 183, 342, 7, 70, "Input",ExpressionUUID->"8f5ef346-934f-ef40-b221-665d5f812ce1"],
+Cell[5669, 192, 444, 12, 70, "Output",ExpressionUUID->"ddb4e047-0155-2c4c-bb27-3a6691143a70"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6150, 209, 180, 3, 70, "Input",ExpressionUUID->"18eaaaa2-f39b-7846-90f0-60180a30f87f"],
+Cell[6333, 214, 1693, 47, 70, "Output",ExpressionUUID->"bdcd797d-3e04-3f48-827b-3a991595fbaa"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
