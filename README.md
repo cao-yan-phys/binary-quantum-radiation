@@ -1,12 +1,12 @@
 # Quantum radiation power from a classical Newtonian circular binary
 
-This repository contains Mathematica routines for computing the leading-order quantum radiation power from a classical Newtonian circular binary into selected massless final states, in Einstein's theory of relativity.
+This repository contains Mathematica routines for computing the leading-order quantum radiation power from a classical Newtonian circular binary into selected massless final states, in Einstein gravity.
 
-The implemented power calculations cover real minimally coupled scalar pairs, massless Dirac fermion pairs, photon pairs, the standard single-graviton classical radiation channel, and the IR-divergent bulk three-graviton contribution to two-graviton emission. The scalar, fermion, and photon pair-production power contributions are computed using spin-2 and spin-0 projections of the conserved classical source. The considered two-graviton power contribution comes from the Einstein-Hilbert cubic vertex, whose soft limit is controlled by the soft theorem (the corresponding soft divergence cancels against virtual soft-graviton corrections in an inclusive rate).
+The implemented power calculations cover real minimally coupled scalar pairs, massless Dirac fermion pairs, photon pairs, the standard single-graviton classical radiation channel, and the IR-divergent bulk three-graviton contribution to two-graviton emission. The scalar, fermion, and photon pair-production power contributions are computed using spin-2 and spin-0 projections of the conserved classical source. The considered two-graviton power contribution comes from the Einstein-Hilbert cubic vertex, and its infrared limit is controlled by the soft theorem (the corresponding IR divergence cancels against virtual graviton corrections in an inclusive rate).
 
 <img src="diagrams.png" style="zoom:67%;" />
 
-The notebook  `QuantumRadiationBinary.nb` loads `QuantumRadiationBinary.wl` and evaluates the results.
+The notebook `QuantumRadiationBinary.nb` loads `QuantumRadiationBinary.wl` and evaluates the results.
 
 ## Parameters
 
@@ -166,7 +166,7 @@ P_X=\frac{1/S}{64\pi^5}\Omega^4
 \sum_{\lambda_1,\lambda_2}|\mathcal M_X|^2,
 $$
 
-with \(S=2\) for identical real scalar, photon and graviton pairs, and \(S=1\) for a Dirac fermion-antifermion pair. The factorized pair calculation uses
+with $S=2$ for identical real scalar, photon and graviton pairs, and $S=1$ for a Dirac fermion-antifermion pair. The factorized pair calculation uses
 
 $$
 P_X=C_X\mu^2a^4\Omega^8,\qquad
@@ -241,4 +241,4 @@ P_{hh}^{\rm bulk}=
 \right]\mu^2a^4\Omega^8 .
 $$
 
-For two-graviton emission, only the IR-divergent bulk three-graviton contribution is included in the amplitude, which is certainly not the complete gauge-invariant two-graviton amplitude. A complete result requires the remaining source/contact contributions to the two-graviton amplitude at the same order, which remain to be worked out...
+For two-graviton emission, only the IR-divergent bulk three-graviton contribution is included in the amplitude, which is not the complete gauge-invariant two-graviton amplitude. A complete result requires the remaining source/contact contributions to the two-graviton amplitude at the same order, which remain to be worked out...
