@@ -1,8 +1,8 @@
 # Quantum radiation power from a classical Newtonian circular binary
 
-This repository contains Mathematica routines for computing the leading-order quantum radiation power from a classical Newtonian circular binary into selected massless final states, in Einstein gravity.
+This repository contains Mathematica routines for computing the leading-order quantum radiation power from a classical Newtonian circular binary into selected massless final states in Einstein gravity.
 
-The implemented power calculations cover real minimally coupled scalar pairs, massless Dirac fermion pairs, photon pairs, the standard single-graviton classical radiation channel, and the IR-divergent bulk three-graviton contribution to two-graviton emission. The scalar, fermion, and photon pair-production power contributions are computed using spin-2 and spin-0 projections of the conserved classical source. The considered two-graviton power contribution comes from the Einstein-Hilbert cubic vertex, and its infrared limit is controlled by the soft theorem (the corresponding IR divergence cancels against virtual graviton corrections in an inclusive rate).
+The implemented power calculations cover real minimally coupled massless scalar pairs, massless Dirac fermion pairs, photon pairs, the standard single-graviton classical radiation channel, and the IR-divergent bulk three-graviton contribution to two-graviton emission. The scalar, fermion, and photon pair-production power contributions are computed using spin-2 and spin-0 projections of the conserved classical source. The considered two-graviton power contribution comes from the Einstein-Hilbert cubic vertex, and its infrared limit is controlled by the soft theorem (the corresponding IR divergence cancels against virtual graviton corrections in an inclusive rate).
 
 <img src="diagrams.png" style="zoom:67%;" />
 
